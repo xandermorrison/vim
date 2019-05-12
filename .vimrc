@@ -7,5 +7,5 @@ set encoding=utf-8
 set hls
 set tabstop=4
 set shiftwidth=4
-set expandtab!
+set noexpandtab
 colorscheme wombat
