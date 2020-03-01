@@ -1,5 +1,4 @@
 set number
-inoremap jk <ESC>
 let mapleader = "<Space>"
 filetype plugin indent on 
 syntax on 
@@ -8,4 +7,9 @@ set hls
 set tabstop=4
 set shiftwidth=4
 set noexpandtab
-colorscheme wombat
+colorscheme darkblue
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-L> <C-W><C-L>
