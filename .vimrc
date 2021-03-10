@@ -7,7 +7,7 @@ set hls
 set tabstop=4
 set shiftwidth=4
 set noexpandtab
-colorscheme darkblue
+colorscheme elflord
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
