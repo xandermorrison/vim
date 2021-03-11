@@ -7,6 +7,9 @@ set hls
 set tabstop=4
 set shiftwidth=4
 set noexpandtab
+autocmd BufRead,BufNewFile *.htm,*.html setlocal tabstop=2 shiftwidth=2 softtabstop=2
+runtime macros/matchit.vim
+
 colorscheme elflord
 
 nnoremap <C-J> <C-W><C-J>
