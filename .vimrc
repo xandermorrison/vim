@@ -49,3 +49,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-X> <C-W>x
 
 set guifont=Menlo\ Regular:h13
+set splitbelow
+
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
